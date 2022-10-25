@@ -41,7 +41,7 @@ public class Main {
         pernalonga.setNome("Pernalonga");
         pernalonga.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos Inscritos: " + pernalonga.getConteudosInscritos());
-        //pernalonga.progredir();
+        pernalonga.progredir();
         System.out.println("Conteúdos Concluídos: " + pernalonga.getConteudosConcluidos());
         System.out.println("XP: " + pernalonga.calcularTotalXp());
 
@@ -51,7 +51,7 @@ public class Main {
         patolino.setNome("Patolino");
         patolino.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos Inscritos: " + patolino.getConteudosInscritos());
-        //patolino.progredir();
+        patolino.progredir();
         System.out.println("Conteúdos Concluídos: " + patolino.getConteudosConcluidos());
         System.out.println("XP: " + patolino.calcularTotalXp());
     }
